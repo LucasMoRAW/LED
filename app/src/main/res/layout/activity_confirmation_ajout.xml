@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ConfirmationAjout">
+
+    <LinearLayout
+
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        tools:layout_editor_absoluteX="0dp"
+        tools:layout_editor_absoluteY="16dp">
+
+        <ImageView
+            android:id="@+id/imageView3"
+            android:layout_width="160dp"
+            android:layout_height="104dp"
+            app:srcCompat="@drawable/logo_background" />
+
+        <TextView
+            android:id="@+id/textView10"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="150dp"
+            android:gravity="center_horizontal"
+            android:text="LA/LES LED(S) A (ONT) BIEN ETE AJOUTE(S) A VOTRE COMPTE"
+            android:textSize="25dp"
+            android:textStyle="bold" />
+
+        <Button
+            android:id="@+id/retourA4"
+            android:layout_width="270dp"
+            android:layout_height="60dp"
+            android:layout_marginStart="69dp"
+            android:layout_marginLeft="50dp"
+            android:layout_marginTop="105dp"
+            android:text="RETOUR ACCUEIL" />
+
+    </LinearLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

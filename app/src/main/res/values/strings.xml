@@ -1,0 +1,17 @@
+<resources>
+    <string name="app_name">LED</string>
+    <string-array name="colors">
+        <item>Marron</item>
+        <item>Bleu</item>
+        <item>Noir</item>
+        <item>Blanc</item>
+        <item>Vert</item>
+        <item>Rouge</item>
+        <item>Orange</item>
+        <item>Jaune</item>
+        <item>Rose</item>
+        <item>Magenta</item>
+        <item>Cyan</item>
+    </string-array>
+
+</resources>

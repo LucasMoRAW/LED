@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Accueil">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <ImageView
+                android:id="@+id/imageView2"
+                android:layout_width="160dp"
+                android:layout_height="104dp"
+                app:srcCompat="@drawable/logo_background" />
+
+            <TextView
+                android:id="@+id/textView3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center_horizontal"
+                android:text="ACCUEIL"
+                android:textStyle="bold"
+                android:layout_marginTop="25dp"
+                android:textSize="30sp" />
+
+
+            <TextView
+                android:id="@+id/textView"
+                android:layout_width="192dp"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="107dp"
+                android:layout_marginLeft="95dp"
+                android:layout_marginTop="45dp"
+                android:gravity="center_horizontal"
+                android:textStyle="bold"
+                android:text="VOS LEDS" />
+
+            <LinearLayout
+                android:layout_width="414dp"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="25dp"
+                android:orientation="horizontal">
+
+                <EditText
+                    android:id="@+id/editTextTextPassword5"
+                    android:layout_width="268dp"
+                    android:layout_height="47dp"
+
+                    android:ems="10"
+                    android:hint="LEDx1"
+                    android:inputType="textPassword" />
+
+                <ImageButton
+                    android:id="@+id/Blueetooth1"
+                    android:layout_width="116dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    app:srcCompat="@drawable/bt_back" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="414dp"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="25dp"
+                android:orientation="horizontal">
+
+                <EditText
+                    android:id="@+id/editTextTextPassword6"
+                    android:layout_width="268dp"
+                    android:layout_height="47dp"
+
+                    android:ems="10"
+                    android:hint="LEDx2"
+                    android:inputType="textPassword" />
+
+                <ImageButton
+                    android:id="@+id/Blueetooth2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    app:srcCompat="@drawable/bt_back" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="60dp"
+                android:layout_marginTop="50dp"
+                android:orientation="horizontal">
+
+                <Button
+                    android:id="@+id/supprimer"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="70dp"
+                    android:layout_marginLeft="50dp"
+                    android:text="SUPPRIMER" />
+
+                <Button
+                    android:id="@+id/ajouter"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="35dp"
+                    android:layout_marginRight="200dp"
+                    android:text="AJOUTER" />
+
+            </LinearLayout>
+
+            <Button
+                android:id="@+id/quitter"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="159dp"
+                android:layout_marginLeft="50dp"
+                android:layout_marginTop="20dp"
+                android:text="QUITTER" />
+
+        </LinearLayout>
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>
